@@ -159,6 +159,8 @@ ctx.fillStyle = "white";
 ctx.fillText(`Score: ${score}`,10,80)
 
 //bullets[i].move()
+bullet.angle += 15;
+console.log(bullet.angle)
 bullet.move()
 //bullets[i].renderImage(bulleta)
 bullet.renderImage(rang)
