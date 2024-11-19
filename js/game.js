@@ -43,7 +43,7 @@ for(var i = 0; i<numberOfEnemies; i++){
     enemies[i].color = "red"
     enemies[i].w = 50
     enemies[i].h = 50
-    enemies[i].vy = .4
+    enemies[i].vy = .5
     enemies[i].vx = 0
     enemies[i].x = rand(0, c.width)
     enemies[i].y = rand(0, 300)
@@ -123,7 +123,7 @@ function gaming(){
         if(enemies[i].y < - enemies[i].h){
             enemies[i].y = rand(-c.height, 0)
             enemies[i].x = rand(0, c.width)
-            enemies[i].vy = .4
+            enemies[i].vy = .5
         }
 
         if(shoot==true){
